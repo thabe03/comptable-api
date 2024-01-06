@@ -197,6 +197,9 @@ def get_task(no):
     "compte": "Dividendes à payer",
     "no": 2457, "type": 0
   }, {
+    "compte": "Taxes à la consommation à payer",
+    "no": 2458, "type": 0
+  }, {
     "compte": "Produits perçus d'avance",
     "no": 2460, "type": 0
   }, {
@@ -288,10 +291,10 @@ def get_task(no):
     "no": 4500, "type": 0
   }, {
     "compte": "Rendus et rabais sur ventes",
-    "no": 4510, "type": 0
+    "no": 4510, "type": 1
   }, {
     "compte": "Escomptes sur ventes",
-    "no": 4520, "type": 0
+    "no": 4520, "type": 1
   }, {
     "compte": "Gain sur disposition d'immobilisations",
     "no": 4640, "type": 0
@@ -303,10 +306,10 @@ def get_task(no):
     "no": 5100, "type": 1
   }, {
     "compte": "Rendus et rabais sur achats",
-    "no": 5110, "type": 1
+    "no": 5110, "type": 0
   }, {
     "compte": "Escomptes sur achats",
-    "no": 5120, "type": 1
+    "no": 5120, "type": 0
   }, {
     "compte": "Frais de transport à l'achat",
     "no": 5130, "type": 1
@@ -315,7 +318,7 @@ def get_task(no):
     "no": 5140, "type": 1
   }, {
     "compte": "Stock de marchandises à la fin",
-    "no": 5150, "type": 1
+    "no": 5150, "type": 0
   }, {
     "compte": "Salaires",
     "no": 5300, "type": 1
